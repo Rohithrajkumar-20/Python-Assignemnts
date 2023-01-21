@@ -1,0 +1,9 @@
+s=input()
+n=len(s)
+s=sorted(s)
+for i in (1,n-1):
+    if ord(s[i])-ord(s[i-1])==1:
+        continue
+    else:
+        ch=(ord(s[i])-1)
+print(ch)
